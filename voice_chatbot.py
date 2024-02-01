@@ -2,9 +2,9 @@ from telegram.ext import Updater, MessageHandler, Filters
 import telegram, openai, os
 from moviepy.editor import AudioFileClip
 
-openai.api_key = "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"
-TELEGRAM_API_TOKEN = "6417957762:AAH3VzLAzLcaD5PaLWWk0un0Iw2riCOUVYI"
-chat_id = '6386409618'
+openai.api_key = "***"
+TELEGRAM_API_TOKEN = "***"
+chat_id = '***'
 bot = telegram.Bot(token=TELEGRAM_API_TOKEN)
 messages = [{"role": "system", "content": "You are Q-bot, a helpful AI assistant. "}]
 
