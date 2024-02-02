@@ -1,8 +1,8 @@
 from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
 import telegram, openai
 
-openai.api_key = "***"
-TELEGRAM_API_TOKEN = "***"
+openai.api_key = "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"
+TELEGRAM_API_TOKEN = "6753361647:AAF-_FbQxenuszO7VGmSv_TFgp0CvS524Ek"
 bot = telegram.Bot(token=TELEGRAM_API_TOKEN)
 messages = [{"role": "system", "content": "You are Q-bot, a helpful AI assistant. "}]
 
